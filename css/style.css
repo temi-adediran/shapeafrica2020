@@ -1973,6 +1973,10 @@ h1.s2 {
 h1 .small-border {
 	margin-top: 30px;
 }
+h1.medium {
+	font-size: 60px;
+	font-weight:800;
+}
 h1.big, .h1_big {
 	color: #222;
 	font-size: 72px;
@@ -1981,7 +1985,7 @@ h1.big, .h1_big {
 	font-weight:800;
 }
 h1.very-big {
-	font-size: 84px;	
+	font-size: 84px;
 	font-weight:800;
 }
 h1.ultra-big {
@@ -2032,6 +2036,10 @@ h3 {
 	margin-bottom: 20px;
 	font-weight:600;
 }
+.subtitle {
+	font-size: 24px;
+}
+
 .subtitle.s2 {
 	font-size: 16px;
 	font-weight: 500;
@@ -4644,7 +4652,7 @@ a, a:hover, .test-column, .test-column:hover {
 	height: 100%;
 	overflow: hidden;
 	z-index:1;
-	
+
 		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8849e3+0,4991e3+100&0.5+0,0.5+100 */
 background: -moz-linear-gradient(45deg, rgba(136,73,227,0.5) 0%, rgba(73,145,227,0.5) 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(45deg, rgba(136,73,227,0.5) 0%,rgba(73,145,227,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -4742,7 +4750,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#808849e3', e
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
 }
-	
+
 }
 #btn-close-x {
 	width: 100px;
@@ -5084,7 +5092,7 @@ footer .widget_list li a {
 	right:-119px;
 	text-decoration:none;
 	margin-bottom:5px;
-	
+
 	 -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
@@ -5388,8 +5396,8 @@ color:rgba(0,0,0,1) !important;
        */
       .mfp-fade.mfp-bg {
         opacity: 0;
-        -webkit-transition: all 0.5s ease-out; 
-        -moz-transition: all 0.5s ease-out; 
+        -webkit-transition: all 0.5s ease-out;
+        -moz-transition: all 0.5s ease-out;
         transition: all 0.5s ease-out;
       }
       .mfp-fade.mfp-bg.mfp-ready {
@@ -5400,8 +5408,8 @@ color:rgba(0,0,0,1) !important;
       }
       .mfp-fade.mfp-wrap .mfp-content {
         opacity: 0;
-        -webkit-transition: all 0.15s ease-out; 
-        -moz-transition: all 0.15s ease-out; 
+        -webkit-transition: all 0.15s ease-out;
+        -moz-transition: all 0.15s ease-out;
         transition: all 0.15s ease-out;
       }
       .mfp-fade.mfp-wrap.mfp-ready .mfp-content {
@@ -5691,7 +5699,7 @@ p.intro {
 	height: 100%;
 	z-index: 100;
 	top: 0;
-	
+
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8849e3+0,4991e3+100&0.5+0,0.5+100 */
 background: -moz-linear-gradient(45deg, rgba(136,73,227,0.9) 0%, rgba(73,145,227,0.9) 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(45deg, rgba(136,73,227,0.9) 0%,rgba(73,145,227,0.9) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -6330,7 +6338,7 @@ a.read_more i {
 	top: -13px;
 }
 
-.owl-sponsors .item{	
+.owl-sponsors .item{
 	margin:10px;
 }
 
@@ -6338,7 +6346,7 @@ a.read_more i {
 	background:#ffffff;
 	width:100%;
 	height:auto;
-	padding:10px;	
+	padding:10px;
 	border-radius:5px;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
@@ -6956,7 +6964,7 @@ a, img {
 
 
 /* ================================================== */
-	
+
 
 @media(min-width:980px) and (max-width: 1199px) {
 	header #mainmenu a {
@@ -6972,7 +6980,7 @@ a, img {
 	}
 }
 
-/* -------------------------------------------------- 
+/* --------------------------------------------------
 	design for 768px
 	/* ================================================== */
 
@@ -7394,21 +7402,21 @@ a, img {
 		-moz-border-radius: 0;
 		-webkit-border-radius: 0;
 	}
-	
+
 	#custom-owl-slider {
 	width: 120%;
 	height: 120%;
 }
 
-	
+
 	.md-float-right{
 		float:none;
 	}
-	
+
 	#custom-owl-slider .item img{
 		height:100% !important;
 	}
-	
+
 	.schedule-item .sc-time,
 	.schedule-item .sc-pic,
 	.schedule-item .sc-name,
@@ -7416,48 +7424,48 @@ a, img {
 		text-align:left;
 		width:130px;
 	}
-	
+
 	.schedule-item .sc-info{
 		margin-top:20px;
 		width:100%;
 	}
-	
+
 	.schedule-item .sc-info h3{
 		font-size:22px;
 	}
-	
+
 	.schedule-item .sc-pic{
 		width:60px;
 	}
-	
+
 	.schedule-item .sc-pic img{
 		border:none;
 		width:40px;
 		margin-top:-10px;
 	}
-	
+
 	.schedule-item .sc-name span{
 		display:inline-block;
 		margin-top:-20px;
 	}
-	
+
 	.sm-text-center{
 		text-align:center;
 	}
-	
+
 	.sm-mb10{margin-bottom:10px;}
 	.sm-mb20{margin-bottom:20px;}
 	.sm-mb30{margin-bottom:30px;}
-	
+
 	.bg-custom{
 	background-attachment:scroll !important;
 	background-position:top !important;
 	}
-	
+
 }
 
-/* -------------------------------------------------- 
-	custom for 320px & 480px 
+/* --------------------------------------------------
+	custom for 320px & 480px
 	/* -------------------------------------------------- */
 
 @media only screen and (max-width: 767px) {
@@ -7533,23 +7541,23 @@ a, img {
 		float:none;
 		width:100%;
 	}
-	
+
 	h1,h1.big,h1.very-big{
 		font-size:10vw;
 		line-height:10vw;
 	}
-	
+
 	.subtitle.s2 span{
 		display:block;
 		padding:0;
 	}
-	
+
 	.countdown-s1 .countdown-show4 .countdown-section,
 	.countdown-s3 .countdown-show4 .countdown-section,
 	.countdown-s5 .countdown-show4 .countdown-section{
 	width: 70px;
 	}
-	
+
 	.countdown-s3 .countdown-show4 .countdown-section {
 	width: 70px;
 	height:80px;
@@ -7560,7 +7568,7 @@ a, img {
 	border-radius:0;
 	padding-top:20px;
 	}
-	
+
 	.countdown-s3 .countdown-amount {
 		width:auto;
 		margin:0;
@@ -7574,13 +7582,13 @@ a, img {
 		font-weight:400;
 		font-size:12px;
 		padding-top:0px;
-		
+
 	}
-	
-	
+
+
 }
 
-/* -------------------------------------------------- 
+/* --------------------------------------------------
 	design for 480px
 	/* -------------------------------------------------- */
 
@@ -7598,7 +7606,7 @@ a, img {
 	}
 }
 
-/* -------------------------------------------------- 
+/* --------------------------------------------------
 	design for 320px
 	/* -------------------------------------------------- */
 
@@ -7633,7 +7641,7 @@ a, img {
 		float:none;
 		width:100%;
 	}
-	
+
 	.schedule-item .sc-pic{
 		display:none;
 	}
