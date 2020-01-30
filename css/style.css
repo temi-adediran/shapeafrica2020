@@ -201,6 +201,10 @@ header div#logo {
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 }
+header img {
+	height: 70px;
+	width: auto;
+}
 header .logo-2 {
 	display: none;
 }
@@ -7001,6 +7005,9 @@ a, img {
 	header {
 		display: none;
 	}
+	header img {
+		margin-top: 10px;
+	}
 	header .info {
 		display: none !important;
 	}
@@ -7621,10 +7628,6 @@ a, img {
 	}
 	.text-item i {
 		font-size: 24px;
-	}
-	header div#logo img {
-		max-width: 200px;
-		height: auto;
 	}
 	.pf_full_width.gallery_border .item {
 		width: 100% !important;
