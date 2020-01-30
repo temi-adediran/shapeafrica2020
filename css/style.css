@@ -856,6 +856,7 @@ header.header-light .logo-2{
 	text-decoration: none;
 	font-weight: 700;
 	float: right;
+	font-size: 22px;
 }
 .blog-list .btn-more:hover {
 	background: #fff;
@@ -1666,7 +1667,7 @@ a.btn-text-light {
 }
 a.btn-custom, .btn-custom, a.btn-slider, .btn-slider {
 	font-family: "Montserrat";
-	font-size: 12px;
+	font-size: 18px;
 	min-width: 120px;
 }
 a.btn-custom, .btn-custom {
