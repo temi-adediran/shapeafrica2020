@@ -1975,7 +1975,7 @@ h1 .small-border {
 }
 h1.medium {
 	font-size: 60px;
-	font-weight:800;
+	font-weight: 800;
 }
 h1.big, .h1_big {
 	color: #222;
@@ -7644,6 +7644,10 @@ a, img {
 
 	.schedule-item .sc-pic{
 		display:none;
+	}
+
+	h1.medium {
+		line-height: 17vw;
 	}
 }
 

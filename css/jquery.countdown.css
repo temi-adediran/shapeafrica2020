@@ -51,7 +51,7 @@
 	color:#fff;
 }
 .countdown-period {
-    display: block;
+  display: block;
 	width:70px;
 	margin:0 auto;
 	margin-top:5px;
@@ -90,7 +90,7 @@
 	margin:0 auto;
 	font-weight:400;
 	font-size:12px;
-	
+
 }
 
 .countdown-s2{
@@ -221,5 +221,5 @@
 	margin:0 auto;
 	font-weight:400;
 	font-size:12px;
-	
+
 }
