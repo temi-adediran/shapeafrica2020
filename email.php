@@ -1,7 +1,7 @@
 <?php
 
-$subject = 'You Got Message'; // Subject of your email
-$to = 'fowotop@gmail.com';  //Recipient's E-mail
+$subject = "New message from $name";; // Subject of your email
+$to = 'fowotadetope@yahoo.com';  //Recipient's E-mail
 $emailTo = $_REQUEST['email'];
 
 $name = $_REQUEST['name'];

@@ -42,7 +42,7 @@
                         <div id="logo">
                             <a href="index-3.html">
                                 <img class="logo" src="images/globalshapers-light.png" alt="">
-                                <img class="logo" src="images/globalshaperslagos-white.jpg" alt="">
+                                <img class="logo" src="images/globalshaperslagos-white.png" alt="">
                                 <img class="logo-2" src="images/globalshapers-dark.png" alt="">
                                 <img class="logo-2" src="images/globalshaperslagos-dark.png" alt="">
                             </a>
@@ -60,7 +60,7 @@
                                 <li><a href="#section-about">About</a></li>
                                 <!-- <li><a href="#section-speakers">Speakers</a></li> -->
                                 <!-- <li><a href="#section-schedules">Schedules</a></li> -->
-                                <!-- <li><a href="#section-tickets">Tickets</a></li> -->
+                                <li><a href="visa_processing.html">Visa Processing</a></li>
                                 <li><a href="https://shapeafrica2020.typeform.com/to/PDE0rJ" target="_blank">Register Now</a></li>
 								<!-- <li><a href="#section-gallery">Gallery</a></li> -->
                                 <!-- <li><a href="#section-sponsors">Sponsors</a></li> -->
@@ -107,7 +107,7 @@
                                     <div class="spacer-single"></div>
                                     <h3 class="subtitle">Shaping The Next 10</h3>
                                     <div class="spacer-half"></div>
-                                    <div class="subtitle s2"><span><i class="fa fa-calendar-o orange"></i>May 29th to 31st</span><span><i class="fa fa-map-marker orange"></i>Lagos, Nigeria.</span></div>
+                                    <div class="subtitle s2"><span><i class="fa fa-calendar-o orange"></i>May 29th - 31st</span><span><i class="fa fa-map-marker orange"></i>Lagos, Nigeria</span></div>
 
 									<div class="spacer-single"></div>
 
@@ -819,31 +819,38 @@
                                 <div class="row">
 
                                     <div class="col-md-12">
-                                        <div id="form-messages"></div>
-                                        <form id="ajax-contact" method="post" action="email.php">
-                                            <div class="field">
-                                                <label for="name">Name:</label>
-                                                <input type="text" id="name" name="name" required>
+                                        <div id="register-with-map" class="bg-white">
+                                        <form name="contactForm" id='contact_form' class="float-form padding60 pt40 form-s1" method="post" action='email.php'>
+
+                                            <div id="form-messages"></div>
+
+                                            <div class="field-set">
+                                                <input type='text' name='name' id='name' class="form-control" placeholder="Name">
                                             </div>
 
-                                            <div class="field">
-                                                <label for="email">Email:</label>
-                                                <input type="email" id="email" name="email" required>
+                                            <div class="field-set">
+                                                <input type='text' name='email' id='email' class="form-control" placeholder="Email">
                                             </div>
 
-                                            <div class="field">
-                                                <label for="message">Message:</label>
-                                                <textarea id="message" name="message" required></textarea>
+                                            <div class="field-set">
+                                                <input type='text' name='phone' id='phone' class="form-control" placeholder="Phone">
                                             </div>
 
-                                            <div class="field">
-                                                <button type="submit">Send</button>
+                                            <div class="field-set">
+                                                <textarea name='message' id='message' class="form-control" placeholder="Additional Message"></textarea>
                                             </div>
+
+                                            <div class="spacer-half"></div>
+                                            <div id='submit'>
+                                                <input type='submit' id='send_message' value='Submit Form' class="btn btn-custom color-2">
+                                            </div>
+                                            <div id='mail_success' class='success'>Your message has been sent successfully.</div>
+                                            <div id='mail_fail' class='error'>Sorry, error occured this time sending your message.</div>
+
                                         </form>
+                                        <!-- <div id="map-container"><div id="map"></div></div> -->
 
-                                            <!-- <div id="map-container"><div id="map"></div></div> -->
-
-                                            <div class="clearfix"></div>
+                                        <div class="clearfix"></div>
                                         </div>
                                     </div>
 
