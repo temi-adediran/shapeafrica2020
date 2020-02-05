@@ -7,8 +7,8 @@ $(function() {
         var formData = $(form).serialize();
 
         $.ajax({
-            type: 'POST',
-            url: $(form).attr('action'),
+            type: "POST",
+            url: "email.php",
             data: formData
         }).done(function(response) {
             console.log("I got here");
