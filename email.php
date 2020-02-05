@@ -1,6 +1,6 @@
 <?php
 $subject = 'You Got Message'; // Subject of your email
-$to = 'info@designesia.com';  //Recipient's E-mail
+$to = 'fowotop@gmail.com';  //Recipient's E-mail
 $emailTo = $_REQUEST['email'];
 
 $name = $_REQUEST['name'];
@@ -24,11 +24,13 @@ $message .= 'Message : ' . $msg;
 
 if (@mail($to, $subject, $message, $email_from))
 {
+  http_response_code(200);
 	// Transfer the value 'sent' to ajax function for showing success message.
 	echo 'sent';
 }
 else
 {
+  http_response_code(500);
 	// Transfer the value 'failed' to ajax function for showing error message.
 	echo 'failed';
 }
