@@ -11,7 +11,7 @@ background-size: 100%;
 #section-schedules {background:url(../images/background/2.jpg) fixed;}
 #section-register {background:url(../images/background/lagos-3.jpeg) fixed;}
 #section-contact {background:url(../images/background/gsc-lagos-white.jpeg) fixed;}
-#section-sponsors {background:url(../images/background/lagos.jpeg) fixed;}
+#section-partners {background:url(../images/background/lagos.jpeg) fixed;}
 
 /* media query */
 @media only screen and (max-width: 1199px) {
