@@ -201,8 +201,12 @@ header div#logo {
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 }
-header img {
-	height: 70px;
+.global-logo {
+	height: 55px;
+	width: auto;
+}
+.lagos-logo {
+	height: 75px;
 	width: auto;
 }
 header .logo-2 {
@@ -7608,8 +7612,12 @@ a, img {
 	.feature-box-image, .pricing-box {
 		margin-bottom: 30px;
 	}
-	header div#logo img {
-		max-width: 200px;
+	.global-logo {
+		max-width: 55px;
+		height: auto;
+	}
+	.lagos-logo {
+		max-width: 75px;
 		height: auto;
 	}
 }

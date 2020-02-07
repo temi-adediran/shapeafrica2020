@@ -1,12 +1,12 @@
 <?php
-$subject = 'You Got Message'; // Subject of your email
-$to = 'info@designesia.com';  //Recipient's E-mail
+
+$subject = "New message from $name";; // Subject of your email
+$to = 'temitope.fowotade@andela.com';  //Recipient's E-mail
 $emailTo = $_REQUEST['email'];
 
 $name = $_REQUEST['name'];
 $email = $_REQUEST['email'];
 $phone = $_REQUEST['phone'];
-$ticket_type = $_REQUEST['ticket-type'];
 $msg = $_REQUEST['message'];
 
 $email_from = $name.'<'.$email.'>';
@@ -19,17 +19,17 @@ $headers .= "Return-Path:"."From:" . $email;
 $message .= 'Name : ' . $name . "\n";
 $message .= 'Email : ' . $email . "\n";
 $message .= 'Phone : ' . $phone . "\n";
-$message .= 'Ticket : ' . $ticket_type . "\n";
 $message .= 'Message : ' . $msg;
 
 if (@mail($to, $subject, $message, $email_from))
 {
-	// Transfer the value 'sent' to ajax function for showing success message.
-	echo 'sent';
+ // Transfer the value 'sent' to ajax function for showing success message.
+ echo 'sent';
 }
 else
 {
-	// Transfer the value 'failed' to ajax function for showing error message.
-	echo 'failed';
+ // Transfer the value 'failed' to ajax function for showing error message.
+ echo 'failed';
 }
+
 ?>
