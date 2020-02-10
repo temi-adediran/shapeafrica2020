@@ -3023,6 +3023,10 @@ span.teaser {
 }
 
 .fa-facebook{background:#3e5a9b;}
+.fa-instagram{
+	background: #d6249f;
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
 .fa-twitter{background:#55aded;}
 .fa-google-plus{background:#df4f37;}
 .fa-linkedin{background:#0075ad;}
@@ -4236,6 +4240,9 @@ video, object {
 	color: #eceff3;
 }
 
+.highlight {
+	color: #ba53de;
+}
 /* ================================================== */
 
 
@@ -7664,3 +7671,11 @@ a, img {
 }
 
 #ifrm{display:none}
+
+a.hyperlinks {
+  color: #88bef5 !important;
+}
+
+.white {
+	color: #fff !important;
+}
