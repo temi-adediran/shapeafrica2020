@@ -7679,3 +7679,8 @@ a.hyperlinks {
 .white {
 	color: #fff !important;
 }
+
+.sub {
+	color: #fff;
+	font-size: 16px;
+}
