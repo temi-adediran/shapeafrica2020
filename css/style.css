@@ -7682,5 +7682,5 @@ a.hyperlinks {
 
 .sub {
 	color: #fff;
-	font-size: 16px;
+	font-size: 16px !important;
 }
