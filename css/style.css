@@ -7684,3 +7684,21 @@ a.hyperlinks {
 	color: #fff;
 	font-size: 16px !important;
 }
+
+.modal-header-shape {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: start;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem 20px;
+  border-bottom: 1px solid #dee2e6;
+  border-top-left-radius: calc(.3rem - 1px);
+  border-top-right-radius: calc(.3rem - 1px);
+}
+
+.modal-title-shape {
+  margin-bottom: 0;
+  line-height: 1.5;
+}
