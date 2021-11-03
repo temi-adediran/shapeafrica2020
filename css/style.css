@@ -4243,6 +4243,10 @@ video, object {
 .highlight {
 	color: #ba53de;
 }
+
+.bold {
+  font-weight: bold;
+}
 /* ================================================== */
 
 
