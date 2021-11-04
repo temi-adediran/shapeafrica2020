@@ -7,14 +7,13 @@ background-size: 100%;
 }
 
 /* background settings for section */
-#section-contact {background:url(../images/background/lagos.jpeg) fixed;}
+#section-fun-facts {background:url(../images/background/1.jpg) fixed;}
 #section-schedules {background:url(../images/background/2.jpg) fixed;}
-#section-register {background:url(../images/background/arts_women.jpeg) fixed;}
-#section-contact {background:url(../images/background/gsc-lagos-white.jpeg) fixed;}
-#section-partners {background:url(../images/background/lagos.jpeg) fixed;}
+#section-register {background:url(../images/background/3.jpg) fixed;}
+#section-sponsors {background:url(../images/background/4.jpg) fixed;}
 
 /* media query */
-@media only screen and (max-width: 1199px) {
+@media only screen and (max-width: 1199px) { 
 	section{
 	-webkit-background-size: auto 100% !important;
 	-moz-background-size: auto 100% !important;

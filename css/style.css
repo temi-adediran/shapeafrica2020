@@ -201,14 +201,6 @@ header div#logo {
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 }
-.global-logo {
-	height: 55px;
-	width: auto;
-}
-.lagos-logo {
-	height: 75px;
-	width: auto;
-}
 header .logo-2 {
 	display: none;
 }
@@ -860,7 +852,6 @@ header.header-light .logo-2{
 	text-decoration: none;
 	font-weight: 700;
 	float: right;
-	font-size: 22px;
 }
 .blog-list .btn-more:hover {
 	background: #fff;
@@ -1671,7 +1662,7 @@ a.btn-text-light {
 }
 a.btn-custom, .btn-custom, a.btn-slider, .btn-slider {
 	font-family: "Montserrat";
-	font-size: 18px;
+	font-size: 12px;
 	min-width: 120px;
 }
 a.btn-custom, .btn-custom {
@@ -1982,10 +1973,6 @@ h1.s2 {
 h1 .small-border {
 	margin-top: 30px;
 }
-h1.medium {
-	font-size: 60px;
-	font-weight: 800;
-}
 h1.big, .h1_big {
 	color: #222;
 	font-size: 72px;
@@ -1994,7 +1981,7 @@ h1.big, .h1_big {
 	font-weight:800;
 }
 h1.very-big {
-	font-size: 84px;
+	font-size: 84px;	
 	font-weight:800;
 }
 h1.ultra-big {
@@ -2045,10 +2032,6 @@ h3 {
 	margin-bottom: 20px;
 	font-weight:600;
 }
-.subtitle {
-	font-size: 24px;
-}
-
 .subtitle.s2 {
 	font-size: 16px;
 	font-weight: 500;
@@ -3023,10 +3006,6 @@ span.teaser {
 }
 
 .fa-facebook{background:#3e5a9b;}
-.fa-instagram{
-	background: #d6249f;
-	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-}
 .fa-twitter{background:#55aded;}
 .fa-google-plus{background:#df4f37;}
 .fa-linkedin{background:#0075ad;}
@@ -4240,13 +4219,6 @@ video, object {
 	color: #eceff3;
 }
 
-.highlight {
-	color: #ba53de;
-}
-
-.bold {
-  font-weight: bold;
-}
 /* ================================================== */
 
 
@@ -4672,7 +4644,7 @@ a, a:hover, .test-column, .test-column:hover {
 	height: 100%;
 	overflow: hidden;
 	z-index:1;
-
+	
 		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8849e3+0,4991e3+100&0.5+0,0.5+100 */
 background: -moz-linear-gradient(45deg, rgba(136,73,227,0.5) 0%, rgba(73,145,227,0.5) 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(45deg, rgba(136,73,227,0.5) 0%,rgba(73,145,227,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -4770,7 +4742,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#808849e3', e
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
 }
-
+	
 }
 #btn-close-x {
 	width: 100px;
@@ -5112,7 +5084,7 @@ footer .widget_list li a {
 	right:-119px;
 	text-decoration:none;
 	margin-bottom:5px;
-
+	
 	 -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
@@ -5416,8 +5388,8 @@ color:rgba(0,0,0,1) !important;
        */
       .mfp-fade.mfp-bg {
         opacity: 0;
-        -webkit-transition: all 0.5s ease-out;
-        -moz-transition: all 0.5s ease-out;
+        -webkit-transition: all 0.5s ease-out; 
+        -moz-transition: all 0.5s ease-out; 
         transition: all 0.5s ease-out;
       }
       .mfp-fade.mfp-bg.mfp-ready {
@@ -5428,8 +5400,8 @@ color:rgba(0,0,0,1) !important;
       }
       .mfp-fade.mfp-wrap .mfp-content {
         opacity: 0;
-        -webkit-transition: all 0.15s ease-out;
-        -moz-transition: all 0.15s ease-out;
+        -webkit-transition: all 0.15s ease-out; 
+        -moz-transition: all 0.15s ease-out; 
         transition: all 0.15s ease-out;
       }
       .mfp-fade.mfp-wrap.mfp-ready .mfp-content {
@@ -5719,7 +5691,7 @@ p.intro {
 	height: 100%;
 	z-index: 100;
 	top: 0;
-
+	
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8849e3+0,4991e3+100&0.5+0,0.5+100 */
 background: -moz-linear-gradient(45deg, rgba(136,73,227,0.9) 0%, rgba(73,145,227,0.9) 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(45deg, rgba(136,73,227,0.9) 0%,rgba(73,145,227,0.9) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -6358,7 +6330,7 @@ a.read_more i {
 	top: -13px;
 }
 
-.owl-sponsors .item{
+.owl-sponsors .item{	
 	margin:10px;
 }
 
@@ -6366,7 +6338,7 @@ a.read_more i {
 	background:#ffffff;
 	width:100%;
 	height:auto;
-	padding:10px;
+	padding:10px;	
 	border-radius:5px;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
@@ -6984,7 +6956,7 @@ a, img {
 
 
 /* ================================================== */
-
+	
 
 @media(min-width:980px) and (max-width: 1199px) {
 	header #mainmenu a {
@@ -7000,7 +6972,7 @@ a, img {
 	}
 }
 
-/* --------------------------------------------------
+/* -------------------------------------------------- 
 	design for 768px
 	/* ================================================== */
 
@@ -7020,9 +6992,6 @@ a, img {
 	}
 	header {
 		display: none;
-	}
-	header img {
-		margin-top: 10px;
 	}
 	header .info {
 		display: none !important;
@@ -7425,21 +7394,21 @@ a, img {
 		-moz-border-radius: 0;
 		-webkit-border-radius: 0;
 	}
-
+	
 	#custom-owl-slider {
 	width: 120%;
 	height: 120%;
 }
 
-
+	
 	.md-float-right{
 		float:none;
 	}
-
+	
 	#custom-owl-slider .item img{
 		height:100% !important;
 	}
-
+	
 	.schedule-item .sc-time,
 	.schedule-item .sc-pic,
 	.schedule-item .sc-name,
@@ -7447,48 +7416,48 @@ a, img {
 		text-align:left;
 		width:130px;
 	}
-
+	
 	.schedule-item .sc-info{
 		margin-top:20px;
 		width:100%;
 	}
-
+	
 	.schedule-item .sc-info h3{
 		font-size:22px;
 	}
-
+	
 	.schedule-item .sc-pic{
 		width:60px;
 	}
-
+	
 	.schedule-item .sc-pic img{
 		border:none;
 		width:40px;
 		margin-top:-10px;
 	}
-
+	
 	.schedule-item .sc-name span{
 		display:inline-block;
 		margin-top:-20px;
 	}
-
+	
 	.sm-text-center{
 		text-align:center;
 	}
-
+	
 	.sm-mb10{margin-bottom:10px;}
 	.sm-mb20{margin-bottom:20px;}
 	.sm-mb30{margin-bottom:30px;}
-
+	
 	.bg-custom{
 	background-attachment:scroll !important;
 	background-position:top !important;
 	}
-
+	
 }
 
-/* --------------------------------------------------
-	custom for 320px & 480px
+/* -------------------------------------------------- 
+	custom for 320px & 480px 
 	/* -------------------------------------------------- */
 
 @media only screen and (max-width: 767px) {
@@ -7564,23 +7533,23 @@ a, img {
 		float:none;
 		width:100%;
 	}
-
+	
 	h1,h1.big,h1.very-big{
 		font-size:10vw;
 		line-height:10vw;
 	}
-
+	
 	.subtitle.s2 span{
 		display:block;
 		padding:0;
 	}
-
+	
 	.countdown-s1 .countdown-show4 .countdown-section,
 	.countdown-s3 .countdown-show4 .countdown-section,
 	.countdown-s5 .countdown-show4 .countdown-section{
 	width: 70px;
 	}
-
+	
 	.countdown-s3 .countdown-show4 .countdown-section {
 	width: 70px;
 	height:80px;
@@ -7591,7 +7560,7 @@ a, img {
 	border-radius:0;
 	padding-top:20px;
 	}
-
+	
 	.countdown-s3 .countdown-amount {
 		width:auto;
 		margin:0;
@@ -7605,13 +7574,13 @@ a, img {
 		font-weight:400;
 		font-size:12px;
 		padding-top:0px;
-
+		
 	}
-
-
+	
+	
 }
 
-/* --------------------------------------------------
+/* -------------------------------------------------- 
 	design for 480px
 	/* -------------------------------------------------- */
 
@@ -7623,17 +7592,13 @@ a, img {
 	.feature-box-image, .pricing-box {
 		margin-bottom: 30px;
 	}
-	.global-logo {
-		max-width: 55px;
-		height: auto;
-	}
-	.lagos-logo {
-		max-width: 75px;
+	header div#logo img {
+		max-width: 200px;
 		height: auto;
 	}
 }
 
-/* --------------------------------------------------
+/* -------------------------------------------------- 
 	design for 320px
 	/* -------------------------------------------------- */
 
@@ -7648,6 +7613,10 @@ a, img {
 	}
 	.text-item i {
 		font-size: 24px;
+	}
+	header div#logo img {
+		max-width: 200px;
+		height: auto;
 	}
 	.pf_full_width.gallery_border .item {
 		width: 100% !important;
@@ -7664,45 +7633,10 @@ a, img {
 		float:none;
 		width:100%;
 	}
-
+	
 	.schedule-item .sc-pic{
 		display:none;
-	}
-
-	h1.medium {
-		line-height: 17vw;
 	}
 }
 
 #ifrm{display:none}
-
-a.hyperlinks {
-  color: #88bef5 !important;
-}
-
-.white {
-	color: #fff !important;
-}
-
-.sub {
-	color: #fff;
-	font-size: 16px !important;
-}
-
-.modal-header-shape {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: start;
-  align-items: center;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding: 1rem 20px;
-  border-bottom: 1px solid #dee2e6;
-  border-top-left-radius: calc(.3rem - 1px);
-  border-top-right-radius: calc(.3rem - 1px);
-}
-
-.modal-title-shape {
-  margin-bottom: 0;
-  line-height: 1.5;
-}

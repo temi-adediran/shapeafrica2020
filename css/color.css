@@ -17,12 +17,12 @@
 .small-border{
 	background-color:#fc4668;
 }
-.de_tab.tab_style_4 .de_nav li:nth-child(2n+2).active,
+.de_tab.tab_style_4 .de_nav li:nth-child(2n+2).active, 
 .de_tab.tab_style_4 .de_nav li:nth-child(2n+2).active,
 .countdown-s5 .countdown-section:nth-child(3n+3){
 	background-color:#694c8b;
 }
-.de_tab.tab_style_4 .de_nav li:nth-child(3n+3).active,
+.de_tab.tab_style_4 .de_nav li:nth-child(3n+3).active, 
 .de_tab.tab_style_4 .de_nav li:nth-child(3n+3).active,
 .countdown-s5 .countdown-section{
 	background-color:#ffa854;
@@ -42,7 +42,7 @@
 }
 /* purple */
 .countdown-s3 .countdown-show4 .countdown-section:nth-child(3n+3){
-	border-color:#3dbd09;
+	border-color:#694c8b;
 }
 /* dark purple */
 .countdown-s3 .countdown-show4 .countdown-section:nth-child(4n+4){
