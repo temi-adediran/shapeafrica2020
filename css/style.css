@@ -5152,7 +5152,7 @@ footer .widget_list li a {
 }
 .schedule-item .sc-time {
 	text-align:center;
-	width: 150px;
+	width: 290px;
 }
 .schedule-item .sc-pic {
 	width: 100px;
@@ -5182,12 +5182,13 @@ footer .widget_list li a {
 }
 
 .schedule-item .sc-info {
-	width: calc(100%/2);
+	width: calc(100%/1.5);
 }
 .schedule-item .sc-info h3 {
-	font-size:18px !important;
+	font-size:16px !important;
 	margin-bottom: 10px;
 	font-weight:bold;
+  line-height: inherit;
 }
 
 .de_tab.tab_style_4 .de_nav {
@@ -7440,13 +7441,18 @@ a, img {
 		height:100% !important;
 	}
 
-	.schedule-item .sc-time,
+  .schedule-item .sc-time,
 	.schedule-item .sc-pic,
 	.schedule-item .sc-name,
 	.schedule-item .sc-info {
 		text-align:left;
 		width:130px;
 	}
+
+  /* .schedule-item .sc-time {
+    text-align:left;
+    width: 200px;
+  } */
 
 	.schedule-item .sc-info{
 		margin-top:20px;
